@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 
 const Login = () => {
@@ -42,7 +42,7 @@ const Login = () => {
                     Submit
                 </Button>
             </Form>
-            <p>New to Tour Guide ?<span className='register' onClick={navigateRegister}>Please Register</span></p>
+            <p>New to Tour Guide ?<Link to='/register' className='register' onClick={navigateRegister}>Please Register</Link></p>
         </div>
     );
 };
