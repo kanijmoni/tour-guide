@@ -1,0 +1,15 @@
+.login {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    gap: 10;
+}
+
+.title {
+    color: darkblue;
+}
+
+.register {
+    color: red;
+}

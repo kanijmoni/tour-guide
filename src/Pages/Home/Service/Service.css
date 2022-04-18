@@ -4,3 +4,11 @@
     padding-bottom: 8px;
     text-align: center;
 }
+
+.button {
+    color: rgb(235, 235, 247);
+    background-color: darkblue;
+    border: 2px;
+    border-radius: 3px;
+    padding: 5px;
+}
