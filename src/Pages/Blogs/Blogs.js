@@ -1,9 +1,10 @@
 import React from 'react';
+import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
-            <h2>Questions & Answers</h2>
+        <div className='blogs'>
+            <h2 className='QandA'>Questions & Answers</h2>
             <h5>Q: What are the difference between authorization and authentication?</h5>
             <h5> Ans:</h5><p></p>
             <h5>Q: Why are you using firebase? What other options do you have to implement authentication?</h5>
