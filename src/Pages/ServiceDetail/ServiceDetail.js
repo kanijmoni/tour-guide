@@ -8,7 +8,7 @@ const ServiceDetail = () => {
             <h3 className='ser-detail'>Find Your Need</h3>
             <div className='link'>
                 <Link to="/checkout">
-                    <button className='btn'>Proceed Checkout</button>
+                    <button className='btn btn-primary'>Proceed Checkout</button>
                 </Link>
             </div>
         </div>
