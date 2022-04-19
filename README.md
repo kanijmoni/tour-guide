@@ -1,4 +1,4 @@
-[Live Site link]{https://independent-tour-guide-1b1b5.firebaseapp.com}
+[Live Site link](https://independent-tour-guide-1b1b5.firebaseapp.com)
 
 
 
