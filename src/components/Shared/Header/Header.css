@@ -1,0 +1,16 @@
+.header {
+    background-color: rgb(229, 229, 236);
+    text-align: center;
+    height: 40px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(5, 5, 94);
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(0, 139, 120);
+}
