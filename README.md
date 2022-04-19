@@ -1,6 +1,10 @@
 [Live Site link](https://independent-tour-guide-1b1b5.firebaseapp.com)
 
-
+list of technologies:
+1.react-firebase hook
+2.react library
+3.react-bootstrap
+4.reast-toastify
 
 
 # Getting Started with Create React App
