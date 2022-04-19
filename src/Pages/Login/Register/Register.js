@@ -4,15 +4,21 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../../../components/Loading/Loading';
 
 const Register = () => {
     const [
         createUserWithEmailAndPassword,
-        user
+        user,
+        loading
     ] = useCreateUserWithEmailAndPassword(auth);
     const navigate = useNavigate();
     const navigateLogin = () => {
         navigate('/login');
+    }
+
+    if (loading) {
+        return <Loading></Loading>
     }
 
     if (user) {
