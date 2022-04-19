@@ -5,7 +5,7 @@ import auth from '../../../firebase.init';
 import google from '../../../images/socialLogin/download.png'
 
 const SocialLogin = () => {
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
     let errorElement;
     if (error) {

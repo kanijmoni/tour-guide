@@ -16,9 +16,7 @@ const Login = () => {
 
     const [
         signInWithEmailAndPassword,
-        user,
-        loading,
-        error,
+        user
     ] = useSignInWithEmailAndPassword(auth);
 
     if (user) {
@@ -46,11 +44,12 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
+                <Link to='/checkout'>
+                    <Button variant="primary" type="submit">
+                        Login
+                    </Button></Link>
             </Form>
-            <p>New to Tour Guide ?<Link to='/register' className='register' onClick={navigateRegister}>Please Register</Link></p>
+            <p>New to Tourist Destination! ?<Link to='/register' className='register' onClick={navigateRegister}>Please Register</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );

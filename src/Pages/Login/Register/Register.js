@@ -8,9 +8,7 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 const Register = () => {
     const [
         createUserWithEmailAndPassword,
-        user,
-        loading,
-        error,
+        user
     ] = useCreateUserWithEmailAndPassword(auth);
     const navigate = useNavigate();
     const navigateLogin = () => {
@@ -23,7 +21,6 @@ const Register = () => {
 
     const handleRegister = event => {
         event.preventDefault();
-        const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
 
